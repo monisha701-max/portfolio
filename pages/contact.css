@@ -1,0 +1,44 @@
+/* Full background */
+.contact-container {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #66eaea, #f74017);
+}
+
+/* Card */
+.contact-card {
+  background: rgb(174, 228, 225);
+  padding: 40px;
+  border-radius: 15px;
+  width: 400px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+  text-align: center;
+}
+
+/* Heading */
+.contact-card h2 {
+  margin-bottom: 20px;
+  color: #100101;
+    background: white; /* or slightly transparent */
+  border-radius: 1rem;
+  padding: 1.5rem;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+}
+.card {
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 20px;
+  text-align: center;
+  width: 250px;
+  transition: all 0.3s ease;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+.card:hover {
+  transform: translateY(-10px) scale(1.03);
+  box-shadow: 0 15px 30px rgba(255, 140, 105, 0.3);
+}

@@ -1,0 +1,139 @@
+/* Full screen center */
+.home-container {
+  min-height: 100vh;   /* full screen */
+  width: 100%;
+
+  margin-top: 70px;   /* space for navbar */
+  padding: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: linear-gradient(135deg, #66eaea, #ff9966);
+}
+
+/* Card */
+.home-card {
+  background: white;
+  padding: 40px;
+  border-radius: 15px;
+  max-width: 600px;
+  width: 90%;
+  text-align: center;
+  box-shadow: 0 8px 20px rgba(191, 36, 36, 0.4);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+/* Text */
+.home-card h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.home-card h2 {
+  color: #667eea;
+  margin-bottom: 15px;
+}
+
+.home-card p {
+  font-size: 16px;
+  color: #555;
+}
+
+/* Buttons */
+.btn {
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+
+/* Buttons colors */
+.primary {
+  background: #667eea;
+  color: white;
+}
+
+.secondary {
+  border: 1px solid #667eea;
+  color: #667eea;
+}
+
+/* Highlight text */
+.highlight {
+  font-size: 40px;
+  font-weight: bold;
+  background: linear-gradient(90deg, #ff6a00, #c40a64);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.project-card, .skill-card {
+  background: #f0e6ff;
+  padding: 15px 20px;
+  border-radius: 10px;
+  text-align: center;
+  min-width: 150px;
+  transition: transform 0.3s;
+}
+
+.project-card:hover, .skill-card:hover {
+  transform: translateY(-5px);
+}
+
+.project-card a {
+  display: block;
+  margin-top: 10px;
+  color: #3d0d6e;
+  text-decoration: none;
+}
+
+.project-card a:hover {
+  text-decoration: underline;
+}
+.home-buttons {
+  margin-top: 25px;       /* space below text */
+  display: flex;
+  justify-content: center;
+  gap: 15px;              /* space between buttons */
+  flex-wrap: wrap;         /* wrap on mobile */
+}
+
+.btn {
+  padding: 10px 20px;
+  border-radius: 25px;     /* rounded buttons */
+  border: none;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn.primary {
+  background: #ff6f61;     /* or use section color */
+  color: white;
+}
+.btn.secondary{
+  background: #ff6f61;     /* or use section color */
+  color: white;
+}
+
+
+.btn:hover {
+  opacity: 0.85;
+  transform: translateY(-2px);
+}
+.footer {
+  text-align: center;
+  padding: 15px 0;
+ background: linear-gradient(90deg, #6fc4c4, #732a03);  /* dark footer */
+  color: rgb(248, 246, 246);
+  font-size: 14px;
+}
+
+.footer-text {
+  margin: 0;
+}

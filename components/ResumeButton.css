@@ -1,0 +1,20 @@
+.resume-container {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.resume-btn {
+  background: linear-gradient(135deg, #35acdf, #764ba2);
+  color: white;
+  padding: 12px 25px;
+  border-radius: 10px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.resume-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
